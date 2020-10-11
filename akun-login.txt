@@ -1,0 +1,13 @@
+3 Role
+administrator
+username: admin@admin.com
+password: 123456
+
+operator
+username: penilai@simpeg.com
+password: asdzxc
+
+Pegawai
+username: files.yadi@gmail.com
+password: asdzxc
+

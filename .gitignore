@@ -1,0 +1,7 @@
+# Ignore Application Specifics
+application/config/*
+application/logs/*
+!application/logs/index.html
+install/logs/*
+application/cache/*
+!application/cache/index.html

@@ -1,0 +1,35 @@
+@media (max-width: 768px) { /* use the max to specify at each container level */
+    .specifictd {    
+        width:360px;  /* adjust to desired wrapping */
+        display:table;
+        white-space: pre-wrap; /* css-3 */
+        white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+        white-space: -pre-wrap; /* Opera 4-6 */
+        white-space: -o-pre-wrap; /* Opera 7 */
+        word-wrap: break-word; /* Internet Explorer 5.5+ */
+    }
+}
+
+/*image*/
+.loadAnimate{
+	animation:setAnimate ease 2.5s infinite;
+}
+@keyframes setAnimate{
+	0%  {color: #000;}     
+	50% {color: transparent;}
+	99% {color: transparent;}
+	100%{color: #000;}
+}
+.custom-file-label{
+	cursor:pointer;
+	left: 12px;
+	right: 12px;
+}
+
+.sectionRow {
+padding: 16px 0;
+}
+.boxDivider {
+border-bottom: 1px solid #dce1e8;
+margin: 0 -14px;
+}
