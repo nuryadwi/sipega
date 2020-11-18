@@ -1,5 +1,5 @@
 # Ignore Application Specifics
-application/config/*
+#application/config/*
 application/logs/*
 !application/logs/index.html
 install/logs/*
